@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0-*",
+    "description": "PokerHands Console Application",
+    "authors": [ "adamtown" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+    },
+
+    "commands": {
+        "PokerHands": "PokerHands"
+    },
+
+    "frameworks": {
+        "dnx451": { }
+    }
+}
