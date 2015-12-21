@@ -5,5 +5,7 @@
         public string Value { get; set; }
 
         public string Suite { get; set; } 
+
+        public int Rank { get; set; }
     }
 }

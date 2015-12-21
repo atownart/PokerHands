@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="CardHelper.cs" />
     <Compile Include="PokerHandProviders\HighCardProviderTests.cs" />
+    <Compile Include="PokerHandProviders\StraightProviderTests.cs" />
     <Compile Include="PokerHandProviders\ThreeOfAKindProviderTests.cs" />
     <Compile Include="PokerHandProviders\TwoPairProviderTests.cs" />
     <Compile Include="PokerHandProviders\TwoCardsSameValueProviderTests.cs" />

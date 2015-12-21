@@ -44,6 +44,7 @@
     <Compile Include="PokerHandProviders\HighCardProvider.cs" />
     <Compile Include="PokerHandProviders\IPokerHandProvider.cs" />
     <Compile Include="PokerHandProviders\PokerHandProviderBase.cs" />
+    <Compile Include="PokerHandProviders\StraightProvider.cs" />
     <Compile Include="PokerHandProviders\ThreeOfAKindProvider.cs" />
     <Compile Include="PokerHandProviders\TwoCardsSameValueProvider.cs" />
     <Compile Include="PokerHandProviders\TwoPairsProvider.cs" />
