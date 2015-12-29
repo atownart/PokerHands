@@ -2,7 +2,14 @@
 {
     public class Card
     {
-        public string Value { get; set; }
+        public Card(string value, string suite, int rank)
+        {
+            Value = value;
+            Suite = suite;
+            Rank = rank;
+        }
+
+        public string Value { get; }
 
         public string Suite { get; set; } 
 

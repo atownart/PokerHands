@@ -10,7 +10,7 @@ namespace PokerHandsTests
     {
         public static Card DummyCard(string value, string suite)
         {
-            return new Card() {Value = value, Suite = suite};
+            return new Card(value, suite, 0);
         }
 
         public static string[] Suites()

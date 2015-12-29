@@ -15,9 +15,9 @@ namespace PokerHandsTests.PokerHandProviders
             var cards = new List<Card>();
             for (var i = 1; i < 5; i++)
             {
-                cards.Add(new Card() { Rank = i});
+                cards.Add(new Card(string.Empty, string.Empty, i));
             }
-            cards.Add(new Card() { Rank = 10});
+            cards.Add(new Card(string.Empty, string.Empty, 10));
             var straightProvider = new StraightProvider();
 
             //act
@@ -34,7 +34,7 @@ namespace PokerHandsTests.PokerHandProviders
             var cards = new List<Card>();
             for (var i = 1; i < 6; i++)
             {
-                cards.Add(new Card() { Rank = i });
+                cards.Add(new Card(string.Empty, string.Empty, i));
             }
             var straightProvider = new StraightProvider();
 
@@ -50,11 +50,11 @@ namespace PokerHandsTests.PokerHandProviders
         {
             //arrange
             var cards = new List<Card>();
-            cards.Add(new Card() { Rank = 2 });
-            cards.Add(new Card() { Rank = 1});
-            cards.Add(new Card() { Rank = 4 });
-            cards.Add(new Card() { Rank = 3 });
-            cards.Add(new Card() { Rank = 5 });
+            cards.Add(new Card(string.Empty, string.Empty, 2));
+            cards.Add(new Card(string.Empty, string.Empty, 1));
+            cards.Add(new Card(string.Empty, string.Empty, 4));
+            cards.Add(new Card(string.Empty, string.Empty, 3));
+            cards.Add(new Card(string.Empty, string.Empty, 5));
             var straightProvider = new StraightProvider();
 
             //act
