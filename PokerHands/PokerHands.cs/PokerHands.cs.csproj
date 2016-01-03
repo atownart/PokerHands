@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Card.cs" />
+    <Compile Include="PokerHandProviders\FlushProvider.cs" />
     <Compile Include="PokerHandProviders\HighCardProvider.cs" />
     <Compile Include="PokerHandProviders\IPokerHandProvider.cs" />
     <Compile Include="PokerHandProviders\PokerHandProviderBase.cs" />
